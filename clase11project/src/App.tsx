@@ -24,7 +24,7 @@ function App() {
         <BrowserRouter>
           <Switch>
             <Route path="/login" component={LoginPage} />
-            <Route exact path="/"
+            <PrivateRoute exact path="/"
               component={HomePage} />
           </Switch>
         </BrowserRouter>
