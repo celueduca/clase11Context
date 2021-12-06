@@ -1,0 +1,15 @@
+.circular--square {
+    border: solid 0.5px #bbb;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+  }
+
+.centerStories{
+
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
