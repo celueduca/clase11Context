@@ -1,0 +1,87 @@
+.ListPosts {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardPost {
+  width: 600px;
+  border: 1px solid #cecece;
+  margin-bottom: 25px;
+  font-size: 13px;
+  .CardHeader {
+    padding: 15px;
+
+    .CardHeader-Container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .CarHeader-Img {
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50px;
+          margin-right: 10px;
+        }
+      }
+      .CarHeader-Details {
+        font-size: 13px;
+        p {
+          font-weight: 700;
+          margin: 0 0 5px 5px;
+        }
+        span {
+          font-weight: 400;
+          margin: 0 0 5px 5px;
+        }
+      }
+
+      .CarHeader-Action {
+        margin-left: auto;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+  .CardBody-Image {
+    img {
+      width: 600px;
+      height: 600px;
+      object-fit: contain;
+    }
+  }
+  .CardAction{
+    display: flex;
+    justify-content: space-between;
+
+    .ButtonsAction{
+      display: flex;
+      justify-content: space-around;
+      li {
+        padding: 10px 15px;
+      }
+    }
+
+    .ButtonSave{
+      padding: 10px 15px;
+    }
+  }
+  .CardDescription{
+    padding: 10px 15px 25px 15px;
+    .CardLikes{
+      margin-bottom: 10px;
+    }
+  }
+
+  .CardPost--span{
+    font-weight: 700;
+  }
+  .CardPost--time{
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}

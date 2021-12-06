@@ -1,0 +1,50 @@
+.Form-Group {
+  .Form-Group--input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    border: 1px solid $borderColor;
+    padding: 12px 9px;
+    margin: 8px 0;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $borderColor2;
+    }
+  }
+
+  .Form-Group--button {
+    background-color: $primary;
+    color: $background;
+    border: 1px solid $primaryDark;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: $primaryDark;
+    }
+  }
+  .Form-Group--errormessage{
+    color: #b31b1b;
+
+  }
+}
+
+//Form Restore Password
+.Form-RestorePass {
+  border: 1px solid $borderColor;
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  .Form-RestorePass--title {
+    font-size: x-large;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}

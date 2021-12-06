@@ -1,0 +1,33 @@
+.Carousel {
+  max-width: 600px;
+  border: 1px solid #cecece;
+  background-color: white;
+  border-radius: 4px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+
+  .Carousel-List {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    .Carousel-Item {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      .Carrousel-Item-img {
+        img {
+          width: 50px;
+          height: 50px;
+          border: 3px solid #cecece;
+          background-color: $black;
+          border-radius: 50px;
+        }
+      }
+      p {
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  }
+}
