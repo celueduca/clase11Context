@@ -1,0 +1,84 @@
+.container-card-post{
+    display: flex;
+    justify-content: flex-end;
+    .card-section{
+        width: 600px;
+        .layout{
+            border: 1px solid  $border-color-grey;
+            margin-top: 20px;
+            background-color: $background-white;
+        }
+        .section-profile-container{
+            
+            .section-profile{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 50px;       
+                padding: 0.7em;
+                font-size: 13px;
+                color: $font-color-primary;
+                .icon{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 10px;
+                }
+                img{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+                .text-profile{
+                    margin-left: 20px;
+                    display: inline;
+                }
+            }
+        }
+        .img-post{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .icon-post{
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            .icon{
+                margin-left: 15px;
+            }
+
+        }
+        .text-post{
+            padding: 0 12px;
+            b{
+                color: $font-color-primary;
+                font-weight: 600;
+            }
+            .time{
+                font-size: 12px;
+                font-weight: 200;
+                color: $font-color-secondary;
+            }
+        }
+        .comment-post{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid  $border-color-grey;
+            padding: 10px;
+            .coment-post-input{
+                display: flex;
+                input{
+                    margin-left: 10px;
+                    border: none;
+                }
+            }
+            b{
+                color: $font-color-footer;
+            }
+        }
+    }
+
+}

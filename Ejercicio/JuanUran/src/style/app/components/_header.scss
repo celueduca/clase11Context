@@ -1,0 +1,55 @@
+.container-header{ 
+    position: fixed;
+    background-color: $background-white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    padding: 1px;
+    border: solid 0.5px $border-color-grey;
+    width: 100%;
+    z-index: 1;
+    .casa{
+        cursor: pointer;
+    }
+    img{
+        object-fit: scale-down;
+        width: 270px;
+        cursor: pointer;
+      }
+    .container-navBar{
+        width: 270px;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;
+            img{
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+    .container-input{
+        input{
+            border: none;
+            height: 30px;
+            width: 270px;
+            border: solid 1px  $border-color-grey;
+            border-radius: 3px;
+            background-color: $background-grey;
+        }
+        input::placeholder{
+            color: font-color-secondary;
+           text-align: center;
+        }
+        .icon{
+            position: relative;
+            left: 25px;
+            top: 2px;
+        }
+    }
+}
+

@@ -1,0 +1,33 @@
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    div{
+        width: 40%;
+        form{
+            border: solid 1px #000;
+            padding: 15px;
+            border-radius: 4px;
+            background-color: $background-white;
+            div{
+                display: grid;
+                grid-template-columns: 30% 70%;
+                width: 100%;
+                margin-top: 5px;
+                align-items: center;
+                input{
+                    text-align: center;
+                }
+                textarea{
+                    padding: 0;
+                    width: 96%;
+                    max-width: 96%;
+                    height: 80px;
+                    max-height: 80px;
+                }
+            }
+        }
+
+    }
+}
