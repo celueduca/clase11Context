@@ -1,0 +1,42 @@
+@import "./properties";
+
+.changePass-container {
+    padding-top: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .card {
+        padding-top: 50px;
+        display: grid;
+        background-color: rgb(211, 211, 211);
+        height: 320px;
+        width: 400px;
+        border-radius: 6px;
+
+        form h2 {
+            color: $link-color;
+        }
+
+        form input{
+            padding: 6px;
+            margin: 6px;
+            border-radius: 2px;
+            border: none
+            
+        }
+
+        form button {
+            padding: 0.5rem 0.5rem;
+            margin: 10px;
+            border-radius: 6px;
+            align-items: center;
+            justify-content: center;
+            background-color: $link-color;
+            color: blanchedalmond;
+            border-color: $link-color;
+        }
+    }
+}
+

@@ -1,0 +1,20 @@
+@import "./properties";
+
+.Inicio {
+    padding-top: 25px;
+
+    .btnAcceder {
+            padding: 0.5rem 0.5rem;
+            margin: 10px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $link-color;
+            color: blanchedalmond;
+            border-color: $link-color;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

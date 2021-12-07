@@ -1,0 +1,61 @@
+@import "./properties";
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Login {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: $background-grey;
+
+    .container_log{
+        background-color: rgb(197, 197, 197);
+        position: relative;
+        padding: 2.25em 2.6em;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+
+        h1{
+            padding-left: 15%;
+        }
+    }
+
+    form {
+        display: grid;
+        align-content: center;
+        align-items: center;
+
+        input {
+            padding: 0.5rem 1.25rem;
+            margin: 10px;
+            border: solid white;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            outline: none;  
+            
+        }
+        
+
+        button {
+            padding: 0.5rem 0.5rem;
+            margin: 10px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $link-color;
+            color: blanchedalmond;
+            border-color: $link-color;
+
+        }
+    }
+}
+
+
+
