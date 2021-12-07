@@ -1,0 +1,234 @@
+.Carousel {
+    margin-top: 50px;
+    max-width: 600px;
+    border: 1px solid #cecece;
+    background-color: white;
+    border-radius: 4px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+  
+    .Carousel-List {
+        background-color: #fff;
+  
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      .Carousel-Item {
+        background-color: #fff;
+        
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        .Carrousel-Item-img {
+        background-color: #fff;
+
+          img {
+            width: 50px;
+            height: 50px;
+            border: 3px solid #ff0099;
+            border-radius: 50px;
+          }
+        }
+        p {
+        background-color: #fff;
+
+          font-size: 10px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .Main-Container {
+   
+    svg{
+      background-color: #fff;
+    }
+    li{
+      background-color: #fff;
+
+    }
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .Main-Container--grid {
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .ListPosts {
+    p{
+      background-color: #fff;
+
+    }
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CardPost {
+    width: 600px;
+    border: 1px solid #cecece;
+    margin-bottom: 25px;
+    font-size: 13px;
+    background-color: #fff;
+
+    .CardHeader {
+      padding: 15px;
+      background-color: #fff;
+  
+      .CardHeader-Container {
+        display: flex;
+      background-color: #fff;
+
+        flex-direction: row;
+        align-items: center;
+        .CarHeader-Img {
+      background-color: #fff;
+
+          img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            margin-right: 10px;
+      background-color: #fff;
+
+          }
+        }
+        .CarHeader-Details {
+      background-color: #fff;
+
+          font-size: 13px;
+          p {
+            font-weight: 700;
+            margin: 0 0 5px 5px;
+      background-color: #fff;
+
+          }
+          span {
+      background-color: #fff;
+
+            font-weight: 400;
+            margin: 0 0 5px 5px;
+          }
+        }
+  
+        .CarHeader-Action {
+      background-color: #fff;
+
+          margin-left: auto;
+          font-weight: bold;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+    .CardBody-Image {
+      background-color: #fff;
+
+      img {
+        width: 600px;
+        height: 600px;
+        object-fit: contain;
+        background-color: #fff;
+      
+      }
+    }
+    .CardAction{
+      background-color: #fff;
+
+      display: flex;
+      justify-content: space-between;
+  
+      .ButtonsAction{
+      background-color: #fff;
+
+        display: flex;
+        justify-content: space-around;
+        li {
+      background-color: #fff;
+
+          padding: 10px 15px;
+        }
+      }
+  
+      .ButtonSave{
+      background-color: #fff;
+
+        padding: 10px 15px;
+      }
+    }
+    .CardDescription{
+      background-color: #fff;
+
+      padding: 10px 15px 25px 15px;
+      .CardLikes{
+      background-color: #fff;
+
+        margin-bottom: 10px;
+      }
+    }
+  
+    .CardPost--span{
+      background-color: #fff;
+
+      font-weight: 700;
+    }
+    .CardPost--time{
+      background-color: #fff;
+
+      margin-top: 15px;
+      text-transform: uppercase;
+      color: #999999;
+      font-size: 10px;
+      font-weight: 300;
+    }
+  }
+  .Name{
+    
+      padding-right: 10em;
+  }
+  .Sidebar {
+    padding: 15px;
+    top:70px;
+    margin-top: 50px;
+    position: sticky;
+    .Sidebar-Profile {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      }
+  
+      span {
+        font-weight: 800;
+      }
+  
+      p {
+        font-weight: 300;
+        color: #979797;
+        margin: 5px 0;
+      }
+  
+      button{
+          color: #0095fe;
+          background-color: transparent;
+          border: none;
+          font-weight: 700;
+          cursor: pointer;
+      }
+    }
+    .Sidebar-Content{
+      font-size: 14px;
+      color: #979797;
+      font-weight: 700;
+      
+    }
+  }
