@@ -1,0 +1,66 @@
+.headerPost{
+
+    height: 60px;
+    display: grid;
+    grid-template-columns:60px 520px 30px;
+}
+.circular--photo {
+    border: solid 1px black;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+
+  }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgTam{
+    width: 614px;
+}
+.seleccionPost{
+    height: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.buttonGuardar{
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.buttonsPost{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.containerComments{
+    
+    height: 50px;
+    display: grid;
+    grid-template-columns: 40px 500px 70px;
+    border-top: solid 0.5px #bbb;
+}
+.margin{
+    margin-left: 10px;
+}
+.tamFont{
+    font-size: 0.85em ;
+    margin-left: 10px;
+}
+.inputModict{
+    border: 0;
+    width: 500px;
+    height: 25px;
+}
+.centerComment{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.colorPublic{
+    color: rgb(20, 157, 211)
+}

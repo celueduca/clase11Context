@@ -1,0 +1,52 @@
+.container-login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-grey;
+  }
+  .login{
+    width: 25%;
+    height: 300px;
+    padding: 15px;
+    border: solid 1px $border-color-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: $background-white;
+  }
+  form{
+    text-align: center;
+  }
+  .input-text{
+    text-align: left;
+    margin-top: 10px;
+  }
+  h4{
+    display: inline;
+  }
+  input{
+    border: solid 1px $border-color-grey;
+    margin-top: 15px;
+    width: 92%;
+    height: 30px;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 15px;
+    &::placeholder{
+    color: $font-color-secondary;
+
+  }
+  }
+  button{
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    background-color: $link-color;
+    color: #FFF;
+    cursor: pointer;
+  }
+  

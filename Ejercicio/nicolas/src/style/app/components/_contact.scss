@@ -1,0 +1,40 @@
+.Main-Container{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+}
+.Main{
+	width: 50vh;
+	height:23em;
+	border-radius: 20px;
+	box-shadow: 5px 20px 50px #000;
+	
+}
+
+
+.Form-Contact{
+	padding-top: 3em;
+	background: $pink;
+}
+.login{
+	padding-top: 4em;
+    height: 100%;
+	background: $pink;
+	border-radius: 20px;
+	}
+.Input{
+	background: $white;
+	width: 60%;
+	height: 20px;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}

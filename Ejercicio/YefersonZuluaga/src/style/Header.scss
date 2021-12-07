@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    
+}
+.navTab{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.centrarBusqueda{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.busqueda{
+    height: 28px;
+    width: 215px;
+}
+.centerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgInst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
